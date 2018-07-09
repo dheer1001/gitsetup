@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:background="@drawable/connection_box"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/flight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/flight_header"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:paddingBottom="20dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:background="@drawable/flight_bag_background"
+                android:id="@+id/flight_image"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_20"
+                android:adjustViewBounds="true"
+                android:src="@drawable/suitcase_travel"
+                android:tint="@color/main_center_background_color" />
+
+            <aero.developer.bagnet.CustomViews.HeaderTextView
+                android:id="@+id/bagtagText"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/flight_image"
+                android:gravity="center"
+                android:paddingTop="@dimen/padding_15"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:id="@+id/additional_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flight_header"
+            android:gravity="center"
+            android:text="@string/additional_information"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_15sp" />
+
+        <RelativeLayout
+            android:id="@+id/flight_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/additional_information"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_10">
+
+            <aero.developer.bagnet.CustomViews.CustomButton
+                android:id="@+id/arrival"
+                android:layout_width="@dimen/button_130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/padding_10"
+                android:layout_toStartOf="@+id/departure"
+                android:background="@drawable/arrival_departure_default"
+                android:drawableLeft="@drawable/arrival"
+                android:drawablePadding="@dimen/padding_5"
+                android:text="@string/arrival"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size"
+                android:layout_toLeftOf="@+id/departure"
+                android:layout_marginEnd="@dimen/padding_10"
+                android:drawableStart="@drawable/arrival" />
+
+
+            <aero.developer.bagnet.CustomViews.CustomButton
+                android:id="@+id/departure"
+                android:layout_width="@dimen/button_130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/arrival"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="@dimen/padding_10"
+                android:background="@drawable/arrival_departure_default"
+                android:drawableLeft="@drawable/departure"
+                android:drawablePadding="@dimen/padding_10"
+                android:text="@string/departure"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="@dimen/padding_10"
+                android:drawableStart="@drawable/departure" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/flight_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flight_type"
+            android:layout_marginTop="@dimen/padding_30"
+            android:background="@drawable/edit_text_shape">
+
+            <aero.developer.bagnet.CustomViews.CostumEditText
+                android:id="@+id/input_flight_number"
+                style="@style/AppTheme.LoginEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp"
+                android:hint="@string/flightnumber"
+                android:inputType="textVisiblePassword"
+                android:textColorHint="@color/gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flight_number"
+            android:layout_marginTop="@dimen/padding_20"
+            android:background="@drawable/edit_text_shape">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:popupBackground="@color/headerBox_background"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/layout_date"
+            android:layout_width="match_parent"  android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+            <aero.developer.bagnet.CustomViews.DialogTextView
+                android:id="@+id/txt_cancel"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/text_medium_primary"
+                android:text="@string/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <aero.developer.bagnet.CustomViews.CustomButton
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/save_shape"
+                android:text="@string/save"
+                android:textSize="@dimen/text_14sp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+

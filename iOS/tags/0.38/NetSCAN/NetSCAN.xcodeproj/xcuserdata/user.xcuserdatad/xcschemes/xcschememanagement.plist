@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NetSCAN-QA.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>NetSCAN.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CEB19FF21DC721F4006E0385</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CECB08DF1D8A7508009BF5F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CECB08F61D8A7508009BF5F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CECB09011D8A7508009BF5F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

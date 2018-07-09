@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/AirportAirlineCellWidth"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/airport_airline_Layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/AirportAirlineCellWidth"
+        android:layout_height="@dimen/AirportAirlineCellHeight"
+        android:background="@drawable/airport_airline_widget" >
+
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:id="@+id/name"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            style="@style/text_medium_primary"
+            android:layout_width="wrap_content"
+            android:text="kasd"
+            android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+</LinearLayout>

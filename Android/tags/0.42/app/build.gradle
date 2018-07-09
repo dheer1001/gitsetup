@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ITXI'
+            keyPassword 'ah_0912'
+            storeFile file('C:/ITX-Projects/NetScan-Android/trunk/keystore.dat')
+            storePassword 'ah_0912'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "aero.developer.bagjourney.netscan"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 475
+        versionName "0.42"
+        vectorDrawables.useSupportLibrary = true
+    }
+    flavorDimensions 'Default'
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            debuggable true
+        }
+    }
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/backgrund-drawbale'] } }
+    productFlavors {
+        development {
+            applicationId = "aero.developer.bagjourney.netscan.qa"
+        }
+        pj {
+            applicationId = "aero.developer.bagjourney.netscan"
+        }
+    }
+    lintOptions {
+        disable 'ContentDescription'
+    }
+
+}
+
+
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/androidsvg-1.2.1.jar')
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation 'de.greenrobot:greendao:2.1.0'
+    implementation files('libs/scanapi-10.2.1.0.jar')
+    implementation files('libs/scanapi-api-10.2.1.0.jar')
+    implementation project(':DataCollection')
+    implementation project(':cmbsdklib-debug')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation 'de.greenrobot:greendao:2.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'info.guardianproject.netcipher:netcipher:1.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'android.lib.verticalmarqueetextview:VerticalMarqueeTextView:1.0.2'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    implementation 'com.google.android.gms:play-services-analytics:16.0.0'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.android.support:percent:27.1.1'
+    releaseImplementation 'com.crashlytics.sdk.android:crashlytics:2.9.3'
+    testImplementation 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

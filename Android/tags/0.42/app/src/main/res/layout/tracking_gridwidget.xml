@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gridviewBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/queueHeader"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/queue_header_dark"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_below="@+id/queueHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parent_container"
+            android:scrollbars="vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/tracking_recycleView"
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbarThumbHorizontal="@drawable/scrollbar"
+                android:fadeScrollbars="false" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:id="@+id/upperContainer"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"/>
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:layout_below="@+id/view1"
+            android:id="@+id/txt_welcome"
+            android:text="@string/welcome"
+            android:layout_centerHorizontal="true"
+            style="@style/text_small_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:maxLines="1" android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_name"
+            android:layout_below="@+id/txt_welcome"
+            android:text="ZIAD"
+            android:textAllCaps="true"
+            style="@style/text_large_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:id="@+id/txt_serviceId"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txt_name"
+            android:text="123asd"
+            style="@style/text_small_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ic_airport"
+            android:layout_width="50dp" android:tint="@color/white"
+            android:src="@drawable/icon_airport"
+            android:layout_height="50dp" />
+
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:id="@+id/txt_select_airport"
+            android:padding="6dp"
+            android:text="@string/selectAirport"
+            android:layout_width="wrap_content"
+            style="@style/text_small_primary"
+            android:textColor="@color/orange"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <aero.developer.bagnet.CustomViews.AirportAirlineGridWidget
+        android:id="@+id/queue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        />
+
+
+</LinearLayout>

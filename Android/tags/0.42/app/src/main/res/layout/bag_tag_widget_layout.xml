@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="@dimen/gridCellWidthHeight"
+    android:layout_marginLeft="@dimen/padding_5"
+    android:gravity="top|left"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/bagTagLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/gridCellWidthHeight"
+        android:layout_height="@dimen/gridCellWidthHeight"
+        android:background="@drawable/bag_tag_widget_shape">
+
+        <ImageView
+            android:layout_width="@dimen/padding_40"
+            android:layout_height="@dimen/padding_40"
+            app:srcCompat="@drawable/container"
+            android:tint="@color/dark_gray"
+            android:layout_marginRight="@dimen/padding_10"
+            android:layout_marginLeft="@dimen/padding_10"
+            android:id="@+id/bagtagimage"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/syncedImage"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_cloud_done"
+            android:layout_alignBottom="@+id/bagtagimage"
+            android:layout_alignEnd="@+id/bagtagimage"
+            android:layout_alignRight="@+id/bagtagimage" />
+
+    </RelativeLayout>
+
+    <aero.developer.bagnet.CustomViews.SingleLine_AutoResizeTextView
+        android:id="@+id/bag_tag_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textSize="12sp"
+        custom:typefaceAsset="fonts/SourceSansPro-Semibold.otf"
+        android:clickable="false"
+        android:enabled="false"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginLeft="@dimen/padding_2"
+        android:layout_marginStart="@dimen/padding_2"
+        android:singleLine="true"
+        android:gravity="start"
+       />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bagTag_progressBar"
+        android:layout_marginLeft="@dimen/padding_5"
+        android:layout_marginStart="@dimen/padding_5"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/padding_2"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/gray"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+{
+  "A":"Certified aircraft container",
+  "B":"Certified winged aircraft pallet",
+  "D":"Non-certified aircraft container",
+  "F":"Non-certified aircraft pallet",
+  "G":"Non-certified aircraft pallet net",
+  "H":"Certified horse stalls",
+  "J":"Thermal non-structural igloo",
+  "K":"Certified cattle stalls",
+  "L":"Certified multi-contour aircraft container",
+  "M":"Thermal non-certified aircraft container",
+  "N":"Certified aircraft pallet net",
+  "P":"Certified aircraft pallet",
+  "Q":"Certified hardened aircraft container",
+  "R":"Thermal certified aircraft container",
+  "S":"Certified multi-modal air/surface container",
+  "U":"Non-structural container (igloo)",
+  "V":"Automobile transport equipment",
+  "W":"Certified ULD for aircraft engine transport",
+  "X":"Reserved for airline internal use",
+  "Y":"Reserved for airline internal use",
+  "Z":"Reserved for airline internal use"
+}

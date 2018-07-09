@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="input_companyId" format="integer">100</item>
+    <item type="integer" name="input_password" format="integer">101</item>
+
+
+</resources>

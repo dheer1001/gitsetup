@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/TrackingCellWidth"
+    android:layout_margin="10dp"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:gravity="center"
+        android:layout_width="@dimen/TrackingCellWidth"
+        android:layout_height="@dimen/TrackingCellHeight"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/airport_airline_widget" >
+
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/tracking_id"
+            android:layout_alignParentTop="true"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            style="@style/text_medium_primary"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.DialogTextView
+            android:id="@+id/location"
+            android:layout_below="@+id/tracking_id"
+            android:layout_centerInParent="true"
+            style="@style/text_small_primary"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.AutoresizeTextView
+            android:id="@+id/description"
+            android:layout_below="@+id/location"
+            android:maxLines="3"
+            custom:typefaceAsset="fonts/SourceSansPro-Regular.otf"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            style="@style/text_small_primary"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

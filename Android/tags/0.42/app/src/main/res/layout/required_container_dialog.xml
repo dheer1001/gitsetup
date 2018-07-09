@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:id="@+id/main_container"
+    android:background="@drawable/connection_box"
+    android:layout_height="match_parent">
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/container_required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/container_required"
+        android:gravity="center"
+        android:textSize="@dimen/larger_text_size"
+        android:layout_marginTop="@dimen/padding_30"
+        android:textColor="@color/orange"/>
+
+    <ImageView
+        android:id="@+id/scanner_icon"
+        android:layout_width="@dimen/image_width_height"
+        android:layout_height="@dimen/image_width_height"
+        app:srcCompat="@drawable/scann"
+        android:tint="@color/white"
+        android:paddingTop="@dimen/padding_30" android:layout_centerHorizontal="true"
+        android:layout_below="@+id/container_required"
+        android:contentDescription="@string/scanner"
+        />
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/gray"
+    android:gravity="center" android:id="@+id/txt_message"
+    android:layout_below="@+id/scanner_icon"
+    android:layout_marginBottom="@dimen/padding_30"
+    android:textSize="@dimen/larger_text_size"
+    android:paddingTop="@dimen/padding_20"
+    android:text="@string/scan_container"/>
+
+</RelativeLayout>

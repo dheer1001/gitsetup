@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary" android:id="@+id/main_container"
+    tools:context=".socketmobile.TestSocketScannerActivity">
+
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:layout_width="match_parent" android:id="@+id/header_title"
+        android:layout_height="wrap_content"
+        android:text="@string/test_scanner_conectivity"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/larger_text_size"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:id="@+id/img_scanner"
+        android:layout_width="@dimen/image_width_scanner"
+        android:layout_height="@dimen/image_height_scanner"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        app:srcCompat="@drawable/scann"/>
+
+    <ProgressBar
+        android:id="@+id/Progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>
+
+
+</RelativeLayout>

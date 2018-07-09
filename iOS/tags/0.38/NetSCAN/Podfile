@@ -1,0 +1,7 @@
+target 'NetSCAN’
+pod 'ScanAPI', :path => '/Users/Apple 1/Desktop/Repos/iOS-NetScan/tags/v0.37/NetSCAN/Frameworks/BT-SocketMobileScanner'
+pod 'Google/Analytics'
+
+target 'Netscan-QA’
+pod 'ScanAPI', :path => '/Users/Apple 1/Desktop/Repos/iOS-NetScan/tags/v0.37/NetSCAN/Frameworks/BT-SocketMobileScanner'
+pod 'Google/Analytics'

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/main_container"
+    android:background="@drawable/connection_box">
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/testing_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/padding_20"
+        android:textSize="@dimen/larger_text_size"
+        android:text="@string/testing_connection"/>
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/connectionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testing_connection"
+        android:text="@string/disconnected"
+        android:textAllCaps="true"
+        android:textColor="@color/disconnected"
+        android:textStyle="bold"
+        android:textSize="@dimen/larger_text_size"
+        android:layout_marginTop="@dimen/padding_20"
+        android:layout_marginBottom="@dimen/padding_20"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_right_left"
+        android:layout_below="@+id/connectionText">
+
+        <Button
+            android:id="@+id/btn_setup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gray_background"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/padding_right_left"
+            android:layout_marginRight="@dimen/padding_right_left"
+            android:text="@string/setupScanner"/>
+
+        <Button
+            android:id="@+id/reset_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resetScanner"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_gray_background"
+            android:layout_marginLeft="@dimen/padding_right_left"
+            android:layout_marginRight="@dimen/padding_right_left"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

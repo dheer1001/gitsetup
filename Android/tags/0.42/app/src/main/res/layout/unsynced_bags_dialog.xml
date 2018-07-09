@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:alpha="0.99"
+    android:background="@drawable/connection_box">
+
+
+    <RelativeLayout
+        android:id="@+id/bagImageContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:id="@+id/bagTagLayout"
+            android:layout_width="@dimen/padding_80"
+            android:layout_height="@dimen/measure_72"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bag_tag_shape">
+
+
+            <ImageView
+                android:id="@+id/bagTagImage"
+                android:layout_width="@dimen/padding_50"
+                android:layout_height="@dimen/padding_50"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_5"
+                android:layout_marginRight="@dimen/padding_5"
+                android:src="@drawable/suitcase_travel"
+                android:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/syncedImage"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bagTagImage"
+                android:layout_alignEnd="@+id/bagTagImage"
+                android:layout_alignRight="@+id/bagTagImage"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_cloud_off" />
+
+        </RelativeLayout>
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_bagsNumber"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/bagImageContainer"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_description"
+            android:gravity="center"
+            style="@style/text_14_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.CustomButton
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_sendFromAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_shape"
+            android:text="@string/login_queue_action_sendUnsynced"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14sp" />
+
+        <aero.developer.bagnet.CustomViews.CustomButton
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_shape"
+            android:text="@string/login_queue_action_Cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14sp" />
+
+        <aero.developer.bagnet.CustomViews.CustomButton
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_shape"
+            android:text="@string/login_queue_action_deleteUnsynced"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/disconnected"
+            android:textSize="@dimen/text_14sp"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

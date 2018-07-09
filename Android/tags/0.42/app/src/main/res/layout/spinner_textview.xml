@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aero.developer.bagnet.CustomViews.AutoresizeTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:singleLine="true"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:ellipsize="marquee"
+    custom:typefaceAsset="fonts/SourceSansPro-Regular.otf"
+
+    android:layout_height="match_parent">
+
+</aero.developer.bagnet.CustomViews.AutoresizeTextView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray">
+
+    <ImageView
+        android:id="@+id/ic_close"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:padding="15dp"
+        android:background="@null"
+        android:tint="@color/white"
+        android:src="@drawable/ic_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null" />
+
+    <aero.developer.bagnet.CustomViews.CostumEditText
+        android:id="@+id/input_barcode"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_centerInParent="true"
+        style="@style/AppTheme.LoginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:focusable="true"
+        android:background="@drawable/edit_text_shape"
+        android:textColorHint="@color/gray" />
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/txt_example"
+        android:layout_margin="15dp"
+        android:textColor="@color/gray"
+        style="@style/text_xsmall_primary"
+        android:layout_below="@+id/input_barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

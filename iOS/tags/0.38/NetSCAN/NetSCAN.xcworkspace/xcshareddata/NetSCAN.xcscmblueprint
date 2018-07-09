@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9b04becb-f66a-4cc8-bde7-9836364b69cc",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9cf4d1cd-45db-499d-9f97-dbbbd4351e9b" : {
+
+    },
+    "9b04becb-f66a-4cc8-bde7-9836364b69cc" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9cf4d1cd-45db-499d-9f97-dbbbd4351e9b" : 9223372036854775807,
+    "9b04becb-f66a-4cc8-bde7-9836364b69cc" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "17B2BE17-08A2-49EF-90B5-76C9423D2386",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9cf4d1cd-45db-499d-9f97-dbbbd4351e9b" : "",
+    "9b04becb-f66a-4cc8-bde7-9836364b69cc" : "BagJourny\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NetSCAN",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/NetSCAN\/NetSCAN.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/teamitx1.xp-dev.com\/svn\/Netscan-IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9b04becb-f66a-4cc8-bde7-9836364b69cc"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/teamitx1.xp-dev.com\/svn\/iTravel-iOS-V2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9cf4d1cd-45db-499d-9f97-dbbbd4351e9b"
+    }
+  ]
+}

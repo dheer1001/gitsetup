@@ -1,0 +1,239 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NetScanQA</string>
+    <string name="MANATEE_LICENSE">AMYvd/YhN7UeTwdMJbtgU40QFWJXXkdOtH+8FFGMhRo=</string>
+
+
+    <string name="serviceId">Service ID</string>
+    <string name="airportCode">Airport Code</string>
+    <string name="startBtn">Start</string>
+    <string name="quit">Quit</string>
+    <string name="invalidServiceId">Invalid Service ID</string>
+    <string name="invalidAirportCode">Invalid Airport Code</string>
+    <string name="invalidAirlineCode">Invalid Airline Code</string>
+
+    <string name="submit">Submit</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="airline">Airline</string>
+    <string name="flightnumber">Flight Number</string>
+    <string name="flight_number_hint">1234</string>
+    <string name="save">Save</string>
+    <string name="arrival">Arrival</string>
+    <string name="departure">Departure</string>
+    <string name="flight_number_error">Please Enter Number of 4 digits</string>
+    <string name="airline_error">Airline must be 9W or S7 or BA</string>
+    <string name="airline_invalid">Airline must be not empty</string>
+    <string name="clear">Clear</string>
+
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="networkOnline">Network\nOnline</string>
+    <string name="networkOffline">Network\nOffline</string>
+
+
+    <string name="gate">GATE 24</string>
+    <string name="time">03:22</string>
+    <string name="scan_tracking">Scan tracking point to proceed</string>
+    <string name="container_required">Container required</string>
+    <string name="scan_container">Scan Container To Proceed</string>
+    <string name="scanner">scanner</string>
+    <string name="location_identifed">Location identified…</string>
+    <string name="location_timeout">Location will time out in</string>
+    <string name="additional_information">Additional information required</string>
+    <string name="testing_connection">Testing device connection....</string>
+    <string name="airplane">airplane</string>
+    <string name="size">Base Size: </string>
+    <string name="contour">Countour: </string>
+    <string name="uld_type">Type: </string>
+    <string name="start_scan_bags">Start scanning bags</string>
+    <string name="switch_container">Switch Container or Tracking point by scanning a new one.</string>
+    <string name="acquire_connection">Acquiring connection…</string>
+    <string name="items_in_queue">%s Items to Sync</string>
+    <string name="item_in_queue">%s Item to Sync</string>
+    <string name="invalidFlightNumber">Invalid Flight Number</string>
+    <string name="selectDate">Select Date</string>
+    <string name="clear_container">Clear Container</string>
+    <string name="clear_flight">Clear Flight</string>
+    <string name="clear_tracking_point">Clear Tracking Point</string>
+    <string name="credits">About</string>
+    <string name="loaded">Loaded</string>
+    <string name="notavailable">N/A</string>
+    <string name="reset_status">Reset Status</string>
+    <string name="delete_Bag">Delete </string>
+    <string name="creditsText" formatted="false" tools:ignore="StringFormatInvalid">This is SITA \nBagJourney \nNetscan \nv%s %s%s \n\nTeam SITA\n
+
+        Caroline Camilli-Gay\n
+        Andy Malinofsky\n
+        Viktor Kusy\n
+        Aseem Dayal\n
+        Dipti Khilnani\n
+        Venkat Gangineni\n
+        Adrien Sanglier\n
+        \n
+        Team ITXI\n
+        Mood Bacho\n
+        Ziad Mugraby\n
+        Bilal Itani\n
+        Makram Skaff\n
+        Issa Al-Zayed\n
+        Mohamad Itani\n
+        Rola Sabra\n\n
+        SITA BagJourney NetScan contains barcode components Powered by Cognex Corporation These products may only be used as part of and in connection with SITA\'s BagJourney NetScan.</string>
+
+
+    <string name="arriving">Arriving to %s</string>
+    <string name="departing">Departing from %s</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="setupScanner">Setup Scanner</string>
+    <string name="resetScanner">Reset Scanner</string>
+
+    <string name="test_scanner_conectivity">Testing Scanner Connectivity</string>
+    <string name="reset_scanner_text">After Scanning Reset Barcode, if the device was paired before, then go to Setting>Bluetooth press info icon on Socket 7Xi[xxxxxx], forget device then press Setup button on the application to connect the device.</string>
+    <string name="setup_scanner_text">1) Power on the device and scan this barcode to apply SPP mode.The scanner will beep 3 times. Make sure the scanner is discoverable (upaired). \n \n 2)Turn Bluetooth on for your device. Go to Settings > Bluetooth. A Bluetooth Devices search will begin. \n \n 3)Tap Socket 7Xi[xxxxxx] in the list of devices found. After a few seconds the "Not Paired" sattus will change to "Connected" or "Paired" and the scanner BlueLED will start blinking every 3 seconds confirming the connection.</string>
+    <string name="go_to_reset">Reset Factory Setting</string>
+    <string name="spp_mode">Android mode setup</string>
+
+    <!--<string-array name="scanner_types">-->
+    <!--<item>Cognex Scanner</item>-->
+    <!--<item>SocketMobile BT</item>-->
+    <!--<item>SoftScan</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="ok">OK</string>-->
+    <!--<string name="settings_menu">Settings</string>-->
+    <!--<string name="connect">Connect</string>-->
+    <!--<string name="disconnect">Disconnect</string>-->
+    <!--<string name="reset_setting">Reset Factory Setting</string>-->
+    <!--<string name="scanner_not_connected">Scanner is not Connected</string>-->
+    <!--<string name="initializingScanApi">Initializing ScanAPI&#8230;</string>-->
+    <!--<string name="title_activity_socket_mobile_scan">Socket Mobile Activity</string>-->
+    <!--<string name="alert">Alert</string>-->
+    <!--<string name="title_activity_cognex_scan">CognexScanActivity</string>-->
+    <!--<string name="title_activity_soft_scanner">SoftScannerActivity</string>-->
+
+    <string name="Scan_Flash">Scan Flash</string>
+    <string name="Scan_zoom">Scan Zoom</string>
+
+    <string name="cognex_scanner">Cognex Scanner</string>
+    <string name="socket_mobile_bt">SocketMobile BT</string>
+    <string name="soft_scan">Soft Scan</string>
+
+
+    <string name="shake_phone">Shake device to invoke soft scan camera.</string>
+
+    <string name="capture">Capture</string>
+    <string name="some_permission_denied">You have rejected some permission, related scanner types might not work. Please re-open the app and allow permissions.</string>
+    <string name="version" formatted="false" tools:ignore="StringFormatInvalid">© SITA %d, v%s</string>
+    <string name="notification_enterflightInfo">You have to enter a flight information.</string>
+    <string name="notification_noInternetConnection">please maintain your Internet Connection to continue scanning.</string>
+
+    <string name="Network_Connection_Issue">Network Connection Issue</string>
+    <string name="delete_similar">Delete Similar</string>
+    <string name="try_again">Try Again</string>
+    <string name="userID">User ID</string>
+    <string name="companyID">Company ID</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="darkMode">Dark Mode</string>
+    <string name="lightMode">Light Mode</string>
+    <string name="welcome">Welcome</string>
+    <string name="selectAirport">Select Airport</string>
+    <string name="selectAirline">Select Airline</string>
+    <string name="changePassword">Change password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="invalid_userID">Invalid UserID</string>
+    <string name="invalid_companyID">Invalid CompanyID</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="signOut">Sign Out</string>
+    <string name="back">BACK</string>
+    <string name="restart">Restart</string>
+
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <!--<string name="connection_needed_msg">You need Internet connection</string>-->
+    <string name="password_changed">Password successfully changed</string>
+
+    <string name="connecting_to_scanner">Connecting to Scanner</string>
+
+    <string name="container_identified">Container identified…</string>
+    <string name="scanner_connection_error">Could not establish connection with scanner</string>
+    <string name="android_cognex_setup">Scan this barcode to apply Android mode to DataMan cognex</string>
+    <string name="cognex_reset">Reset Barcode for Cognex</string>
+    <string name="expired_login">Login Session Expired or Invalid.</string>
+
+    <string name="bingo_sheet_detected">Bingo sheet detected</string>
+    <string name="number_of_bags">Number Of Bags</string>
+    <string name="invalid_bag_number">Invalid bag number</string>
+    <string name="bingo_mode">bingo mode</string>
+    <string name="start_continuous_scan">Start continuous scan</string>
+    <string name="bingo">bingo !</string>
+    <string name="submit_incomplete" formatted="false">Submit Incomplete\n %d/%d </string>
+    <string name="bingoResetButton">Reset\nBag Count</string>
+    <string name="submit_bags" formatted="false" tools:ignore="StringFormatInvalid">Submit Bags\n %d/%d</string>
+    <string name="bags_incomplete" formatted="false">Bags Incomplete\n%d/%d</string>
+    <string name="incomplete_bags_details_dialog" formatted="false">You inputted a count of %d but scanned %d bags \n Are you sure you want to submit to Bag Journey</string>
+    <string name="mx_connect_packagename">com.cognex.mxconnect</string>
+
+    <string name="considerChangePass">Consider changing your password</string>
+    <string name="passwordExpiryMessage" formatted="false">Your password will expire %s.\nwould you like to change it now?</string>
+    <string name="later">Later</string>
+    <string name="changePasswordNow">Change Password Now</string>
+    <string name="tomorrow">tomorrow</string>
+    <string name="today">today</string>
+
+    <string name="scannerConnected">Scanner Connected</string>
+    <string name="scannerDisConnected">Scanner Disconnected</string>
+    <string name="tap_to_select_tracking_ponit">Tap to\nselect\ntracking\npoint</string>
+    <string name="selectTrackingPoint">Select Tracking Point</string>
+    <string name="refresh">Refresh</string>
+    <string name="passwordDialogNotMatch">The new password and its confirmation that you inputted do not match.</string>
+    <string name="passwordDialogNotValid">New passwords must be at least 8 characters in length, contain at least one lowercase and one uppercase letter, contain at least one special character (!@#$%^&amp;*), and contain at least one number (0–9).</string>
+    <string name="fetching_bag">Fetching Bag</string>
+
+    <string name="honeywell_ct50_scanner">Honeywell CT50</string>
+
+    <string name="trackingPointValidationError">The tracking point you selected/scanned does not match the airport you have logged in with.</string>
+    <string name="invalid_location_scanner">Invalid tracking point for this scanner.</string>
+    <string name="invalid_location">Invalid tracking point</string>
+    <string name="recently_used">Recently Used</string>
+    <string name="tapToScan">Tap to Scan</string>
+
+    <string name="offline">Offline</string>
+
+    <string name="noTrackingPoints">No Tracking Points Configured. Contact your Admin for more Info.</string>
+
+    <string name="login_queueUnsyncedBags">Bags and containers scanned by %s remain unsynchronized on this device. How do you want to proceed?</string>
+    <string name="login_queue_action_Cancel">Cancel Login</string>
+    <string name="login_queue_action_deleteUnsynced">Delete Unsynchronized Bags</string>
+    <string name="login_queue_action_deleteUnsynced_prompt">Are you sure you want to delete the unsynchronized bags?</string>
+    <string name="login_queue_action_sendUnsynced">Send Bags from My Account</string>
+
+    <string name="synchronizing_bag">Synchronizing Bag…</string>
+    <string name="couldnot_establish_connection">Could not establish Connection</string>
+    <string name="retry">Retry</string>
+
+
+    <string name="permission_camera_title">Camera Access</string>
+    <string name="permission_storage_title">Storage Access</string>
+
+    <string name="permission_camera">In order to perform soft scanning from your device, we will need permission to access your camera.</string>
+    <string name="permission_camera_denied">It looks like you have not permitted this app to use the camera. Please go to your device\'s Settings &#8211;&#8211;&gt; Privacy &#8211;&#8211;&gt; Camera and enable for this app.</string>
+    <string name="permission_storage">In order to use the selected scanner over Bluetooth, we will need permission to access your file storage.</string>
+    <string name="permission_yes">Yes, that\'s fine</string>
+    <string name="permission_no">No thanks, maybe later</string>
+
+    <string name="force_password_change_subtitle">Your admin has requested you change your password.</string>
+    <string name="reset_password_success_extra">Please login with your new password.</string>
+
+    <string name="input_bagtag_hint">Bag Tag</string>
+    <string name="input_container_hint">Container Code</string>
+    <string name="input_bagtag_example">e.g. 0011223300</string>
+    <string name="input_container_example">e.g. xxx 11111 aa</string>
+    <string name="invalid_container_code">Invalid Conatiner Code</string>
+    <string name="start_scan_containers">Start scanning containers</string>
+</resources>
+
+

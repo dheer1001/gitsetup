@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/main_container"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@drawable/connection_box"
+    android:layout_height="wrap_content">
+
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/txt_title"
+        style="@style/text_small_primary"
+        android:gravity="center"
+        android:text="@string/container_identified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+
+        android:layout_below="@+id/txt_title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgContainer"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/container"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="@dimen/padding_10"
+        />
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/txt_containerId"
+        android:layout_below="@+id/imgContainer"
+        style="@style/text_medium_primary"
+        android:gravity="center"
+        android:text="AKN 12345DL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_10"
+        />
+
+
+
+</RelativeLayout>

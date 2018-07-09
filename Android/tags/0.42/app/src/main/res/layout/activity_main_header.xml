@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".scantypes.EngineActivity">
+
+    <RelativeLayout
+        android:id="@+id/connectivity_container"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/connection_box_left"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/scannerConnectivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/scann"
+            android:layout_alignParentLeft="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:visibility="gone"
+            android:id="@+id/ic_soft_scan"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_soft_scan"
+            android:tint="@color/gray"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/scannerConnectivity"
+            android:layout_toEndOf="@+id/scannerConnectivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:id="@+id/deviceStatus"
+            android:textColor="@color/gray"
+            android:text="@string/scannerConnected"
+            android:textSize="@dimen/text_size"
+            />
+            <aero.developer.bagnet.CustomViews.HeaderTextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:id="@+id/tapToScan"
+                android:textColor="@color/gray"
+                android:text="@string/tapToScan"
+                android:textSize="@dimen/text_10"
+                />
+
+            <LinearLayout
+                android:id="@+id/batteryContainer"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    tools:ignore="ContentDescription"
+                    android:layout_marginRight="2dp"
+                    android:id="@+id/ic_charging"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_charging"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginEnd="2dp" />
+
+                <View
+                    android:id="@+id/batteryDash_1"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_width="10dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/battery_rectangle"/>
+
+                <View
+                    android:id="@+id/batteryDash_2"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_width="10dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/battery_rectangle"/>
+                <View
+                    android:id="@+id/batteryDash_3"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_width="10dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/battery_rectangle"/>
+                <View
+                    android:id="@+id/batteryDash_4"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_width="10dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/battery_rectangle"/>
+                <View
+                    android:id="@+id/batteryDash_5"
+                    android:layout_width="10dp"
+                    android:layout_height="3dp"
+                    android:background="@drawable/battery_rectangle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/AirportContainer"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/connectivity_container"
+        android:layout_toLeftOf="@+id/gateLayout"
+        android:layout_toStartOf="@+id/gateLayout"
+        android:layout_alignBottom="@+id/gateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_airport"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            style="@style/text_small_primary"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/ic_airport"
+            android:tint="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_airport"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/gateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/connectivity_container"
+        android:layout_toStartOf="@+id/online_layout"
+        android:background="@drawable/connection_box_new"
+        android:layout_toRightOf="@+id/connectivity_container"
+        android:layout_toLeftOf="@+id/online_layout">
+
+        <LinearLayout
+            android:id="@+id/locationLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <ImageView
+                tools:ignore="ContentDescription"
+                android:id="@+id/gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_my_location"
+                android:foregroundGravity="center" />
+
+            <aero.developer.bagnet.CustomViews.HeaderTextView
+                android:id="@+id/gateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/larger_text_size"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <aero.developer.bagnet.CustomViews.DigitalTextView
+                android:id="@+id/timeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/time_text_size" />
+        </LinearLayout>
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:visibility="gone"
+            android:id="@+id/txt_TapToSelectTrackingPoint"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="@string/tap_to_select_tracking_ponit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.AutoresizeTextView
+            android:visibility="visible"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/noTrackingPoints"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:text="@string/noTrackingPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:typefaceAsset="fonts/SourceSansPro-Semibold.otf" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/online_layout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/connectivity_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/connection_box_right"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            tools:ignore="ContentDescription"
+            android:id="@+id/connectivityImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ic_signal_wifi"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/connectionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/networkOnline"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size" android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/connectivityImage"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/connectivityImage" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/AirlineContainer"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/online_layout"
+        android:layout_toRightOf="@+id/gateLayout"
+        android:layout_toEndOf="@+id/gateLayout"
+        android:layout_alignBottom="@+id/gateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ic_airline"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:srcCompat="@drawable/airplane"
+            android:tint="@color/white"
+            tools:ignore="ContentDescription"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_airline"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="true" style="@style/text_small_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

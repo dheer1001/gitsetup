@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "683220770013",
+    "firebase_url": "https://fir-netscan.firebaseio.com",
+    "project_id": "firebase-netscan"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683220770013:android:8e906bb2f622a2ad",
+        "android_client_info": {
+          "package_name": "aero.developer.bagjourney.netscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683220770013-5f7o06d0j838ldvd1c1et2rp75r0ufgs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "683220770013-hihh5cpo1nocg9eoaamiuvd1sc4g4d4j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "683220770013-hihh5cpo1nocg9eoaamiuvd1sc4g4d4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-zSdAQBDqL8EN0GAi-8NVBc6bXXrBCI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683220770013:android:8a438a579514c0cc",
+        "android_client_info": {
+          "package_name": "aero.developer.bagjourney.netscan.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683220770013-5f7o06d0j838ldvd1c1et2rp75r0ufgs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "683220770013-hihh5cpo1nocg9eoaamiuvd1sc4g4d4j.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "683220770013-hihh5cpo1nocg9eoaamiuvd1sc4g4d4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-zSdAQBDqL8EN0GAi-8NVBc6bXXrBCI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

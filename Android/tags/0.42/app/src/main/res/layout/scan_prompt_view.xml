@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp" android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/scanning_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/scann"
+        android:tint="@color/white"
+        android:layout_gravity="center"
+        android:contentDescription="@string/scanner"
+         />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:id="@+id/textContainer"
+        android:layout_toRightOf="@+id/scanning_icon"
+        android:layout_toEndOf="@+id/scanning_icon"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_title"
+            style="@style/text_small_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <aero.developer.bagnet.CustomViews.HeaderTextView
+            android:id="@+id/txt_description"
+            style="@style/text_small_primary"
+            android:lineSpacingExtra="-4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

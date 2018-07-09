@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding_20"
+    android:paddingBottom="@dimen/padding_20" android:id="@+id/main_container"
+    android:background="@drawable/connection_box">
+
+    <ImageView
+        android:id="@+id/scanner_icon"
+        android:layout_width="@dimen/image_width_height"
+        android:layout_height="@dimen/image_width_height"
+        app:srcCompat="@drawable/scann"
+        android:layout_gravity="center"
+        android:tint="@color/white"
+        android:foregroundGravity="center"
+        android:contentDescription="@string/scanner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/start_scann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_below="@+id/scanner_icon"
+        android:layout_marginTop="@dimen/padding_20"
+        android:textSize="@dimen/larger_text_size"
+        android:paddingBottom="@dimen/padding_20"
+        android:text="@string/start_scan_bags"/>
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/switch_containers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_container"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_13sp"
+        android:gravity="center"
+        android:layout_below="@+id/start_scann"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

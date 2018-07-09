@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/txt_clear"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        style="@style/text_medium_primary"
+        android:text="@string/clear"
+        android:textSize="17sp"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

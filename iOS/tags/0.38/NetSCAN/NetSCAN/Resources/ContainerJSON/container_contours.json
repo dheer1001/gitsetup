@@ -1,0 +1,119 @@
+{
+
+  "A":
+  {
+      "Width":"2438 mm / 96 in",
+      "Height":"2438 mm / 96 in",
+      "Type":"Main Deck"
+    },
+  "B":
+   {
+      "Width":"2438 mm / 96 in",
+      "Height":"2438 mm / 96 in",
+      "Type":"Main Deck"
+    },
+"C":
+    {
+      "Width":"2337mm / 92 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+
+ "D": {
+      "Width":"2438 mm / 96 in",
+      "Height":"2997 mm / 118 in",
+      "Type":"Main Deck"
+    },
+
+   "E": {
+      "Width":"2007 mm / 79 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+  "F":
+    {
+      "Width":"4064 mm / 160 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+  "G":
+    {
+      "Width":"2007 mm / 79 in",
+      "Height":"1143 mm / 45 in",
+      "Type":"Lower Deck"
+    },
+  "H":
+    {
+      "Width":"2438 mm / 96 in",
+      "Height":"1143 mm / 45 in",
+      "Type":"Lower Deck"
+    },
+  "J":
+    {
+      "Width":"2438 mm / 96 in",
+      "Height":"2438 mm / 96 in",
+      "Type":"Main Deck"
+    },
+  "K":
+    {
+      "Width":"3175 mm / 125 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Main / Lower Deck"
+    },
+  "L":
+    {
+      "Width":"2438 mm / 96 in",
+      "Height":"2946 mm / 116 in",
+      "Type":"Main Deck"
+    },
+  "M":
+    {
+      "Width":"2236 mm / 88 in",
+      "Height":"2286 mm / 90 in",
+      "Type":"Main Deck"
+    },
+  "N":
+    {
+      "Width":"2007 mm / 79 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+  "P":
+    {
+      "Width":"3175 mm / 125 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+  "U":
+    {
+      "Width":"4724 mm / 186 in",
+      "Height":"1626 mm / 64 in",
+      "Type":"Lower Deck"
+    },
+  "V":
+    {
+      "Width":"2438 mm / 96 in",
+      "Height":"2438 mm / 96 in",
+      "Type":"Main Deck"
+    },
+  "X":
+    {
+      "Width":"2438 mm / 96 in",
+      "Height":"2997 mm / 118 in",
+      "Type":"Main Deck"
+    },
+  "Y":
+    {
+      "Width":"3175 mm / 125 in",
+      "Height":"2083 mm / 82 in",
+      "Type":"Main Deck"
+    },
+  "Z":
+    {
+      "Width":"3175 mm / 125 in",
+      "Height":"2083 mm / 82 in",
+      "Type":"Main Deck"
+    }
+
+
+}

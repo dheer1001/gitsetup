@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="EVENT_START_SCREEN">Start Screen</string>
+    <string name="EVENT_MENU_SCREEN">Menu</string>
+    <string name="EVENT_CLEAR_TRACKING_POINT_SCREEN">Clear Tracking Point</string>
+    <string name="EVENT_CLEAR_FLIGHT_INFORMATION_SCREEN">Clear Flight Information</string>
+    <string name="EVENT_CLEAR_CONTAINER_SCREEN">Clear Container</string>
+    <string name="EVENT_CLEAR_ABOUT_SCREEN">About</string>
+    <string name="EVENT_SCAN_TRACKING_POINT_PROMPT_SCREEN">Scan Tracking Point Prompt</string>
+    <string name="EVENT_SCAN_CONTAINER_PROMPT_SCREEN">Scan Container Prompt</string>
+    <string name="EVENT_SCAN_BAG_PROMPT_SCREEN">Scan Bag Prompt</string>
+    <string name="EVENT_DEVICE_DISCONNECTED_SCREEN">Device Disconnected Dialog</string>
+    <string name="EVENT_FLIGHT_MODAL_FOR_TRACKING_POINT_SCREEN">Flight Modal for Tracking Point</string>
+    <string name="EVENT_FLIGHT_MODAL_FOR_BAG_SCREEN">Flight Modal for Bag</string>
+    <string name="EVENT_TRACKING_POINT_SCANNED_SCREEN">Tracking Point Scanned</string>
+    <string name="EVENT_CONTAINER_SCANNED_SCREEN">Container Scanned</string>
+    <string name="EVENT_BAG_SCANNED_SCREEN">Bag Scanned</string>
+    <string name="EVENT_BAG_TRACK_SYNCHED_SCREEN">Bag Track Synched</string>
+    <string name="EVENT_CONTAINER_TRACK_SYNCHED_SCREEN">Container Track Synched</string>
+    <string name="EVENT_ITEM_DELETED_SCREEN">Item Deleted</string>
+    <string name="EVENT_ITEM_RESETED_SCREEN">Item Reseted</string>
+    <string name="EVENT_ITEM_TRY_AGAIN_SCREEN">Item TRY AGAIN</string>
+    <string name="EVENT_CHANGE_PASSWORD_SCREEN">Change Password</string>
+</resources>

@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  NetSCAN
+
+  Created by Developer on 9/15/16.
+  Copyright © 2016 User. All rights reserved.
+*/
+
+"userID" = "User ID";
+"companyID" = "Company ID";
+"darkMode" = "Dark Mode";
+"lightMode" = "Light Mode";
+"signIn" = "Sign In";
+"welcome" = "Welcome";
+"selectAirport" = "Select Airport";
+"selectAirline" = "Select Airline";
+"signout" = "SIGN OUT";
+"back" = "BACK";
+"restart" = "Restart";
+
+"password" = "Password";
+"changePassword" = "Change Password";
+"new_password" = "New password";
+"confirm_password" = "Confirm password";
+"old_password" = "Old password";
+"ok" = "OK";
+"cancel"="Cancel";
+
+"airportCode" = "Airport Code";
+"startBtn" = "Start";
+"serviceId" = "Service ID";
+"quit" = "Quit";
+"invalidServiceId" = "Invalid Service ID";
+"invalidAirportCode" = "Invalid Airport Code";
+"invalidAirlineCode" = "Invalid Airline Code";
+"submit" = "Submit";
+"type" = "Type";
+"date" = "Date";
+"airline" = "Airline";
+"flightnumber" = "Flight Number";
+"airline_hint" = "Service ID";
+"flight_number_hint" = "1234";
+"save" = "Save";
+"arrival" = "Arrival";
+"departure" = "Departure";
+"flight_number_error" = "Please Enter Number of 4 digits";
+"airline_error" = "Airline must be 9W or S7 or BA";
+"airline_invalid" = "Airline must be not empty";
+"clear" = "Clear";
+"requestFailed"="System is currently unavailable, please contact SITA Administrator.";
+"disconnect" = "Disconnect";
+"connect" = "Connect";
+"connected" = "Connected";
+"connectingScanner" = "Connecting to Scanner";
+"couldNotConnected" = "Could not establish connection with scanner";
+"not_connected" = "Not Connected";
+"scanner_not_connected"="Scanner is not Connected";
+"online" = "Online";
+"offline" = "Offline";
+"test_scanner_conectivity"="Testing Scanner Connectivity";
+"reset_scanner_text"="After Scanning Reset Barcode, if the device was paired before, then go to Setting>Bluetooth press info icon on Socket 7Xi[xxxxxx], forget device then press Setup button on the application to connect the device.";
+
+"setup_scanner_text"="1) Power on the device and scan this barcode to apply iOS mode.The scanner will beep 3 times. Make sure the scanner is discoverable (upaired). \n \n 2)Turn Bluetooth on for your device. Go to Settings > Bluetooth. A Bluetooth Devices search will begin. \n \n 3)Tap Socket 7Xi[xxxxxx] in the list of devices found. After a few seconds the \"Not Paired\" status will change to \"Connected\" or \"Paired\" and the scanner BlueLED will start blinking every 3 seconds confirming the connection.";
+
+"DataMan_reset"="Reset Barcode for Cognex";
+
+"notification_noInternetConnection"="please maintain your Internet Connection to continue scanning.";
+"notification_enterflightInfo"="You have to enter a flight information.";
+"soft_scan"="Soft Scan";
+"DataMan_iOS_Mode"="Scan this barcode to apply IOS mode to DataMan Cognex";
+"shake_phone"="Shake device to invoke soft scan camera.";
+"capture"="Capture";
+"gate" = "GATE 24";
+"time" = "3:22";
+"scan_tracking" = "Scan tracking point to proceed";
+"container_required" = "Container required";
+"scan_container" = "Scan Container To Proceed";
+"scanner" = "scanner";
+"container_identified" = "Container identified...";
+"location_identifed" = "Location identified...";
+"location_timeout" = "Location will time out in";
+"additional_information" = "Additional information required";
+"testing_connection" = "Testing device connection....";
+"airplane" = "airplane";
+"size" = "Base Size: ";
+"contour" = "Countour: ";
+"uld_type" = "Type: ";
+"start_scan_bags" = "Start scanning bags";
+"switch_container" = "You can switch containers and tracking \n points at same time by scanning a new one.";
+"acquire_connection" = "Acquiring connection...";
+"items_in_queue" = "%@ Items to Sync";
+"item_in_queue" = "%@ Item to Sync";
+"invalidFlightNumber" = "Invalid Flight Number";
+"selectDate" = "Select Date";
+"clear_container" = "Clear Container";
+"clear_flight" = "Clear Flight";
+"clear_tracking_point" = "Clear Tracking Point";
+"invalidTrackingpiont" = "Invalid Tracking Point";
+"credits" = "About";
+"loaded" = "Loaded";
+"notavailable" = "N/A";
+"reset_status" = "Reset Status";
+"try_again" = "Try Again";
+"delete_Bag" = "Delete ";
+"delete_similar" = "Delete Similar";
+"Network_Connection_Issue" = "Network Connection Issue";
+
+"creditsText" = "This is SITA \nBagJourney \nNetscan \nv%@\n\n\nTeam SITA\nVenkat Gangineni\nCaroline Camilli-Gay\nAndy Malinofsky\nViktor Kusy\nAseem Dayal\nDipti Khilnani\nAdrien Sanglier\n\nTeam ITXI\nMood Bacho\nZiad Mugraby\nBilal Itani\nMakram Skaff\nIssa Al-Zayed\nMohamad Itani\nRola Sabra\n\nSITA BagJourney NetScan contains barcode components Powered by Cognex Corporation These products may only be used as part of and in connection with SITA's BagJourney NetScan.";
+
+"arriving" = "Arriving to %@";
+"departing" = "Departing from %@";
+"set_up" = "Setup Scanner";
+"reset_scanner" = "Reset Scanner";
+
+"cognex_scanner"="Cognex Scanner";
+"socket_mobile_bt"="SocketMobile BT";
+"softScanner" = "SoftScan";
+
+"bingoMode" = "Bingo Mode";
+"continuesScanning" = "Start continuous scan";
+"bingoResetButton" = "Reset\nBag Count";
+"bingoSuccess" = "BINGO !";
+"incompleteConfirmation" = "Bags Incomplete";
+"confirmationMessage" = "You inputted a count of %@ but scanned\n%@ bag%@\nAre you sure you want to submit to\nBag Journy";
+"bingoSheetDetected" = "Bingo Sheet Detected";
+"numberOfBags" = "Number Of Bags";
+"expired_login" = "Login Session Expired or Invalid.";
+
+"changePasswordNow" = "Change Password Now";
+"later" = "Later";
+"considerChangePass" = "Consider changing your password";
+"passwordExpiryMessage" = "Your password will expire %@. \n Would you like to change it now?";
+"tomorrow" = "tomorrow";
+"today" = "today";
+"scannerConnected" = "Scanner\nConnected";
+"scannerDisConnected" = "Scanner\nDisconnected";
+"networkOnline" = "Network\nOnline";
+"networkOffline" = "Network\nOffline";
+"tap_to_select_tracking_ponit" = "Tap to\nselect\ntracking\npoint";
+
+"no_tracking_points_configured" = "No Tracking Points\nConfigured.\nContact your\nAdmin for more\nInfo.";
+"selectTrackingPoint" = "Select Tracking Point";
+"refresh" = "Refresh";
+// from 0 to 141 uploaded to online cheet
+
+"passwordDialogNotMatch" = "The new password and its confirmation that you inputted do not match";
+"passwordDialogNotValid" = "New passwords must be at least 8 characters in length, contain at least one lowercase and one uppercase letter, contain at least one special character (!@#$%^&*), and contain at least one number (0–9)";
+"invalid_location_scanner" = "Invalid tracking point for this scanner.";
+"trackingPointValidationError" = "The tracking point you selected/scanned does not match the airport you have logged in with.";
+"recentlyUsed" = "Recently Used";
+"softScanTabToScan" = "Soft Scan\nTap to Scan";
+
+"login_queueUnsyncedBags" = "Bags and containers scanned by %@ remain unsynchronized on this device.\nHow do you want to proceed?";
+"login_queue_action_Cancel" = "Cancel Login";
+"login_queue_action_deleteUnsynced" = "Delete Unsynchronized Bags";
+"login_queue_action_deleteUnsynced_prompt" = "Are you sure you want to delete the unsynchronized bags?";
+"login_queue_action_sendUnsynced" = "Send Bags from My Account";
+"contacting_server" = "Contacting Server";
+"synchronizing_bag" = "Synchronizing Bag...";
+
+"permission_camera"="In order to perform soft scanning from your device, we will need permission to access your camera.";
+"permission_camera_denied" = "It looks like you have not permitted this app to use the camera. Please go to your device's Settings --> Privacy --> Camera and enable for this app.";
+"permission_notifications"="In order to remind you of expiring logged in sessions, we will need permission to send you notifications.";
+"permission_notifications_denied" = "It looks like this app does not have permission for notifications. Please fix in your device's Settings app.";
+"notifications_alert" = "Notifications have been disabled. Please enable them in the Settings app to continue.";
+"camera_alert" = "Access to Camera has been disabled. To use the soft scan feature, please enable camera access from your device's settings.";
+"permission_camera_title" = "Camera Access";
+"permission_notifications_title" = "Notifications";
+"permission_yes" = "Yes, that's fine";
+"permission_no" = "No thanks, maybe later";
+"force_password_change_subtitle"="Your admin has requested you change\nyour password.";
+"reset_password_success_extra" = "\nPlease login with your new password.";

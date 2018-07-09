@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:weightSum="1">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/upper_container"
+    android:background="@color/black"
+    android:layout_height="0dp" android:layout_weight="0.5">
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/location_identified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/larger_text_size"
+        android:text="@string/location_identifed"
+        android:layout_marginTop="@dimen/padding_30"
+        android:textColor="@color/gray"/>
+
+    <ImageView
+        android:id="@+id/my_location"
+        android:layout_width="@dimen/image_50dp"
+        android:layout_height="@dimen/image_50dp"
+        app:srcCompat="@drawable/ic_my_location"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/location_identified"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_10"
+        />
+
+    <aero.developer.bagnet.CustomViews.HeaderTextView
+        android:id="@+id/Txtgate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_location"
+        android:text="@string/gate"
+        android:textSize="@dimen/larger_text_size"
+        android:textColor="@color/white"
+        android:paddingTop="@dimen/padding_10"
+        android:gravity="center"/>
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/timeout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location_timeout"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/larger_text_size"
+        android:layout_below="@+id/Txtgate"
+        android:paddingTop="@dimen/padding_10"
+        android:gravity="center"/>
+
+    <aero.developer.bagnet.CustomViews.DigitalTextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:gravity="center"
+        android:textSize="@dimen/time_text_size"
+        android:layout_below="@+id/timeout"
+        android:paddingTop="@dimen/padding_10"
+        android:textColor="@color/orange"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ic_airline"
+        app:srcCompat="@drawable/airplane"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <aero.developer.bagnet.CustomViews.DialogTextView
+        android:id="@+id/txt_select_airline"
+        android:padding="6dp"
+        android:text="@string/selectAirline"
+        android:layout_width="wrap_content"
+        style="@style/text_small_primary"
+        android:textColor="@color/orange"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <aero.developer.bagnet.CustomViews.AirportAirlineGridWidget
+        android:id="@+id/airlinelist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        />
+
+
+</LinearLayout>

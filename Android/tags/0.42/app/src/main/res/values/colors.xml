@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#333333</color>
+<color name="colorPrimaryDark">#000000</color>
+<color name="colorAccent">#565656 </color>
+<color name="windowBackground">#333333</color>
+<color name="white">#FFFFFF</color>
+<color name="transwhite">#30ffffff</color>
+<color name="black">#000000</color>
+<color name="connected">#119c0f</color>
+<color name="disconnected">#ffff0000</color>
+<color name="information_color">#3090C7</color>
+<color name="headerBox_background">#333333</color>
+<color name="main_start_end_background_color">#070707</color>
+<color name="main_center_background_color">#292929</color>
+<color name="gray">#FF888888</color>
+<color name="disabled_gray">#88c4c4c4</color>
+<color name="orange">#FFA500</color>
+<color name="trans_gray">#B3353535</color>
+<color name="silver">#94999d</color>
+<color name="gridviewBackground">#434343</color>
+<color name="trans_black">#00000000</color>
+<color name="light_black">#0c0c0c</color>
+<color name="dark_gray">#FF444444</color>
+<color name="transwhiteBtn">#8bffffff</color>
+
+<color name="light_gray">#FFCCCCCC</color>
+<color name="reverse_light_gray">#4F4F4F</color>
+<color name="gridview_whitebackground">#C8CACE</color>
+<color name="bag_details_background">#F2FFFFFF</color>
+<color name="transblack">#30000000</color>
+<color name="white_80">#CCFFFFFF</color>
+</resources>
+
